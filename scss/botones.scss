@@ -1,0 +1,17 @@
+
+.boton{
+	@include flex;
+	@include z-depth-1;
+	width: 177px;
+	height: 30px;
+	background-color: #304ffe;
+	color: #fff;
+	border-radius: 3px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	transition: all, .3s;
+	&:hover{
+		@include z-depth-3;
+	}
+}
